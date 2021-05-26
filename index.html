@@ -9,7 +9,6 @@
       <link rel="stylesheet" href="style.css" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
-      <link rel="stylesheet" href="style-large.css" />
       <title>Easybank Landing Page</title>
    </head>
    <body>
@@ -27,17 +26,29 @@
                   </ul>
                </div>
                <div class="btn-req-invite">
-                  <a class="btn-a" href="">Request Invite</a>
-                  <div class="overlay"></div>
+                  <a class="btn-a" href=""
+                     >Request Invite
+                     <div class="overlay"></div
+                  ></a>
                </div>
             </div>
          </nav>
          <nav>
             <div class="navbar-mobile">
                <div class="logo"><img src="images/logo.svg" alt="logo" /></div>
-               <div class="hamburger-icon"><img src="images/icon-hamburger.svg" alt="hamburger icon" /></div>
+               <div class="hamburger-icon"><img class="ham-img" src="images/icon-hamburger.svg" alt="hamburger icon" /></div>
+            </div>
+            <div class="ham-nav">
+               <ul>
+                  <li class="home-btn"><a href="">Home</a></li>
+                  <li class="about-btn"><a href="">About</a></li>
+                  <li class="contact-btn"><a href="">Contact</a></li>
+                  <li class="blog-btn"><a href="">Blog</a></li>
+                  <li class="careers-btn"><a href="">Careers</a></li>
+               </ul>
             </div>
          </nav>
+         <div class="body-wrapper-wo-nav">
          <header>
             <div class="photo-mobile"><img src="images/image-mockups.png" alt="" /></div>
             <div class="header-text">
@@ -48,7 +59,12 @@
                      investing, and much more.
                   </p>
                </div>
-               <div class="btn-req-invite btn-req-invite-section"><a href="">Request Invite</a></div>
+               <div class="btn-req-invite btn-req-invite-section">
+                  <a href=""
+                     >Request Invite
+                     <div class="overlay"></div
+                  ></a>
+               </div>
             </div>
          </header>
          <section>
@@ -188,7 +204,12 @@
                   </ul>
                </div>
                <div class="footer-col-3">
-                  <div class="btn-req-invite"><a href="">Request Invite</a></div>
+                  <div class="btn-req-invite">
+                     <a href=""
+                        >Request Invite
+                        <div class="overlay"></div
+                     ></a>
+                  </div>
                   <div class="copyright-info">
                      <p>© Easybank. All Rights Reserved</p>
                   </div>
@@ -196,8 +217,10 @@
             </div>
          </footer>
       </div>
+   </div>
+      <div class="overlay-bg"></div>
+      <script src="app.js"></script>
    </body>
-   <script src="app.js"></script>
 </html>
 
 <!-- 
